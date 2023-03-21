@@ -47,8 +47,8 @@ before                        |        after
 :----------------------------:|:-------------------------:
 ![](dirty_team_contract.png)  |  ![](Clean_contract.png)
 
-'Positions' 'Loan_date_end' has 97% empty rows. This is understandable as the total number of players on loan accounts for only 3% of the entire data. Only players on loan have values in this column. So, I decided to delete the column than replace the 97% with Null values.column was removed because there is another column bearing the 'Best Position' of each player. The 'Positions' column had the details in the 'Best Position' column in addition to the extra positions for players that had more than one position.
-![](.png)
+'Positions'column i decided to removed it because there is another column bearing the 'Best Position' of each player. The 'Positions' column had the details in the 'Best Position' column in addition to the extra positions for players that had more than one position.
+![](position.png)
 
 'Loan_date_end' has 97% empty rows. This is understandable as the total number of players on loan accounts for only 3% of the entire data. Only players on loan have values in this column. So, I decided to delete the column than replace the 97% with Null values.
 ![](clean_loandate.png)
